@@ -46,8 +46,8 @@ $profile = new User("kosong");
                 <div class="jumbotron d-flex align-items-center min-vh-100">
                     
                     <nav class="nav flex-column nav-pills">
-                        <a class="mempelai nav-link active" href="#mempelai">Mempelai</a>
-                        <a class="tempat nav-link" href="#tempat">Tempat</a>
+                        <a class="mempelai nav-link active" href="index.php">Mempelai</a>
+                        <a class="tempat nav-link" href="tempat.php">Tempat</a>
                     </nav>
 
                 </div>
@@ -55,18 +55,3 @@ $profile = new User("kosong");
         </div>
         <div class="col-lg-7">
             <div class="container">
-                <div class="content">
-                    
-                </div>
-               
-            </div>
-        </div>
-    </div>
-</body>
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/style.js"></script>
-    <script src="thjs/api1.js"></script>
-    
-</html>

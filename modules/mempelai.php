@@ -1,10 +1,10 @@
 <?php
 namespace fun5i\modules\nikahyuk;
 
-class User{
+class Mempelai{
 
     private function data(){
-        $fileprofile = file_get_contents('data/profile.json');
+        $fileprofile = file_get_contents('../data/profile.json');
         return json_decode($fileprofile);
     }
 
